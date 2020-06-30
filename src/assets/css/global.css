@@ -1,0 +1,84 @@
+/* 全局样式 */
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 1366px;
+    overflow-y: auto;
+}
+
+.el-breadcrumb {
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.el-card {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-table {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.el-pagination {
+    margin-top: 15px;
+}
+
+/* 解决级联选择框的问题 */
+/*div .el-scrollbar__wrap {*/
+/*    height: 300px !important*/
+/*}*/
+
+.el-header{
+    padding: 0;
+}
+
+.nopad > .el-card__body {
+    padding: 0px!important;
+}
+
+.el-submenu__title{
+    font-size: 16px!important;
+}
+
+/* 步骤条 */
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+.ql-editor{
+    min-height: 300px;
+}
+
+.content-box {
+    position: absolute;
+    left: 0px;
+    right: 0;
+    top: 60px;
+    bottom: 0;
+
+    -webkit-transition: left .3s ease-in-out;
+    transition: left .3s ease-in-out;
+    background: #f0f0f0;
+}
+
+.content {
+    width: auto;
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.content-collapse {
+    left: 63px;
+}
+
+
